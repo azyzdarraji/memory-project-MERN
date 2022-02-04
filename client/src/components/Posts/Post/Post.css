@@ -1,0 +1,85 @@
+.imagePost {
+    width: 100%;
+    height: 200px;
+    border:1px solid #ffffff;
+    border-radius: 15px;
+}
+.imagePost img {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 15px;
+}
+.formPost{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    border-radius: 15px;
+    height: 130%;
+    position: relative;
+    border:1px solid rgb(255, 252, 252);
+    border-top: 0;
+    background: #fff;
+}
+.overlayPost2{
+    position: absolute;
+    top:20px;
+    right:20px;
+    color:rgb(17, 0, 0);
+}
+.overlayPost{
+    position:absolute;
+    top: 0;
+    left:20px;
+    color:rgb(0, 0, 0);
+}
+.overlayPost p {
+    margin-top: -20px;
+    
+}
+.detailsPost{
+    width: 100%;
+    height: 100px;
+    display:flex ;
+  /* justify-content:space-between ; */
+  flex-direction: column;
+  margin-top: -10px;
+  margin-left: 10px;
+
+}
+.detailsPost p {
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 10px;
+    margin:10px
+    ;
+}
+.detailsPost .title {
+    font-size: 20px;
+    font-weight: 400px;
+    color: black;
+    font-style: blod;
+}
+
+.acountAction{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.acountAction .fas{
+    color: blue;
+    
+
+}
+
+.acountAction span {
+    color: blue;
+    margin : 0 3px;
+
+}
+.acountAction .del {
+    color: black;
+}
+.acountAction .span {
+    color: black;
+}

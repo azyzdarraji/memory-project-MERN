@@ -1,0 +1,8 @@
+// import axios from 'axios';
+
+// const url="http://localhost:9000/posts";
+
+// export const fetchPosts=()=> axios.get(url);
+// export const createPost=(newPost)=>axios.post(url,newPost);
+// // export const updatePost = (id, updatedPost) => axios.put(`${url}/${id}`, updatedPost);
+// export const getOnePost=(id)=>axios.get(`${url}/${id}`);
